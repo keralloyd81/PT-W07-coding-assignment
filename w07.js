@@ -237,7 +237,7 @@ willBuyDrink(true, 8); //call the function with the values true and 8
 console.log('Question 13');
 
 function canGoOnCruise(savings, cruiseCost) { //Function takes two parameters- how much is saved and cost of the cruise
-    if (savings >= cruiseCost) {  //Checks to see is savings is greater than or equal to the cost of the cruie
+    if (savings >= cruiseCost) {  //Checks to see is savings is greater than or equal to the cost of the cruise
         return "You get to go on a cruise!"; //If true, it tells you you can go
     } else {
         let amountNeeded = cruiseCost - savings;//Calculate how much more is needed
